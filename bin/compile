@@ -1,0 +1,10 @@
+  #!/bin/sh
+
+echo "Installing spotify-dl in "$1"/bin"
+
+mkdir -p foo $1/bin
+curl -L https://yt-dl.org/downloads/latest/youtube-dl -o $1/bin/spotify-dl
+
+chmod a+rx $1/bin/spotify-dl
+
+PATH=$PATH:$1/bin/
