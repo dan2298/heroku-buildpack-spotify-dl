@@ -1,6 +1,7 @@
 #!/bin/sh
 
-echo "Installing spotify-dl in "$1"/bin"
+echo "Installing spotify-dl"
 
+npm install -g --save youtube-dl
 npm install -g --save spotify-dl
 
