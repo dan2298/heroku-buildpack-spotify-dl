@@ -2,5 +2,11 @@
 
 echo "Installing spotify-dl in "$1"/bin"
 
-npm install -g --save spotify-dl  
+mkdir -p foo $1/spt
+
+npm install <spt> --save spotify-dl
+
+chmod a+rx $1/spt/spotify-dl
+
+PATH=$PATH:$1/spt/
 
