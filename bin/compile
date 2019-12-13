@@ -2,5 +2,5 @@
 
 echo "Installing spotify-dl in "$1"/bin"
 
-npm install -g spotify-dl  
+npm install -g --save spotify-dl  
 
