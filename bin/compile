@@ -2,5 +2,8 @@
 
 echo "Installing spotify-dl"
 
-npm install -g --save spotify-dl
-npm link spotify-dl
+curl -L https://files.pythonhosted.org/packages/bb/b5/f0235c2b08a402945dce8239edc799b7416fe68669028265755d5249d03e/spotify_dl-3.3.0.tar.gz -o $1/bin/spotify-dl
+
+chmod a+rx $1/bin/spotify-dl
+
+PATH=$PATH:$1/bin/
