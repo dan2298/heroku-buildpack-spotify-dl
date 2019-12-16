@@ -2,6 +2,5 @@
 
 echo "Installing spotify-dl"
 
-npm install -g --save youtube-dl
 npm install -g --save spotify-dl
-
+npm link spotify-dl
